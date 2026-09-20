@@ -330,7 +330,7 @@ copyEmailBtn?.addEventListener('click', async () => {
       copyEmailBtn.innerHTML = '<span class="copy-icon" aria-hidden="true">▣</span> COPY EMAIL ADDRESS';
     }, 2200);
   } catch {
-    window.location.href = \`mailto:\${email}\`;
+    window.location.href = 'mailto:' + email;
   }
 });
 
