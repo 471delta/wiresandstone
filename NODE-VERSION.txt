@@ -1,2 +1,0 @@
-Node.js 22.x
-Pinned via .nvmrc and package.json engines.
